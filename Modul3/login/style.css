@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+    background-image: url(wp2.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 950px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container #logo{
+    margin-left:90px;
+}
+.container
+{
+    background-color: white;
+    width:280px;
+    height:300px;
+    border-radius: 30px;
+    font-size:20px;
+    margin-left: 15%;
+    margin-top:80%;
+}
+.container input[type="submit"]{
+    border: none;
+  outline: none;
+  background: black;
+  color: white;
+  width: 80%;
+  border-radius: 25px;
+  margin-left: 0.1%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.container input[type="text"]{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+}
+.container input[type="password"]{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+}
+.uname{
+    margin-top: 40px;
+}
+.password{
+    margin-top:30px;
+}
+.submit{
+    margin-left:50px;
+}
+input{
+    height: 30px;
+    margin-left:50px;
+}
+@media only screen and (min-width: 768px){
+    .container{
+        margin-top:40%;
+        margin-left:28%;
+        width:350px;
+        height: 320px;
+        font-size:30px;
+    }
+    
+}
+@media only screen and (min-width:1024px){
+    .container{
+        margin-top:12%;
+        margin-left:37%;
+        height:400px;
+    }
+
+    .uname{
+        width:200px;
+    }
+    .password{
+        width:200px;
+    }
+}

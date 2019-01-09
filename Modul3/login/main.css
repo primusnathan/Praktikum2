@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+    background-image: url(wp2.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 950px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    background-color: white;
+    width:150px;
+    padding-left:50px;
+    padding-top:50px;
+    height: 100px;
+    margin-left:570px;
+    margin-top:200px;
+    border-radius:50px;
+}
